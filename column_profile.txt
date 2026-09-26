@@ -1,0 +1,378 @@
+PID | dtype: str | sample: <StringArray>
+['P0289', 'P0352', 'P0308', 'P0253', 'P0102']
+Length: 5, dtype: str
+PID Match Basis | dtype: str | sample: <StringArray>
+[                                      'Name + DOB',
+ 'Name only (matched existing person, DOB missing)',
+               'Name only (no DOB, no other match)']
+Length: 3, dtype: str
+Summary | dtype: str | sample: <StringArray>
+['Person P0289', 'Person P0352', 'Person P0308', 'Person P0253',
+ 'Person P0102']
+Length: 5, dtype: str
+Issue key | dtype: str | sample: <StringArray>
+['NEIG-19349', 'NEIG-19336', 'NEIG-19324', 'NEIG-19311', 'NEIG-19296']
+Length: 5, dtype: str
+Issue id | dtype: int64 | sample: [60769 60756 60744 60731 60716]
+Issue Type | dtype: str | sample: <StringArray>
+[              'New Profile',            'Food Care Path',
+         'Utility Care Path', 'Rent Assistance Care Path',
+            'Basic Supplies']
+Length: 5, dtype: str
+Status | dtype: str | sample: <StringArray>
+[              'Initial Contact',                'Second Contact',
+ 'External Org to Complete Goal',         'Goal No Longer Wanted',
+                 'Goal Attained']
+Length: 5, dtype: str
+Resolution | dtype: str | sample: <StringArray>
+['Done', 'Won't Do']
+Length: 2, dtype: str
+Reporter | dtype: str | sample: <StringArray>
+['Johanna South', 'James Bryant', 'Jerry Englehart']
+Length: 3, dtype: str
+Reporter Id | dtype: str | sample: <StringArray>
+['712020:3b2c2185-c76f-4d90-ad8c-9e260c73c318',
+ '712020:7919ac37-40c1-4b22-a858-9d188e7777ec',
+ '712020:54a6e8ea-caf8-4460-817b-69ed38af698c']
+Length: 3, dtype: str
+Creator | dtype: str | sample: <StringArray>
+['Johanna South', 'James Bryant', 'Jerry Englehart']
+Length: 3, dtype: str
+Creator Id | dtype: str | sample: <StringArray>
+['712020:3b2c2185-c76f-4d90-ad8c-9e260c73c318',
+ '712020:7919ac37-40c1-4b22-a858-9d188e7777ec',
+ '712020:54a6e8ea-caf8-4460-817b-69ed38af698c']
+Length: 3, dtype: str
+Created | dtype: str | sample: <StringArray>
+['12/Aug/26 11:12 AM', '12/Aug/26 10:25 AM',  '12/Aug/26 9:24 AM',
+  '11/Aug/26 1:47 PM', '11/Aug/26 11:54 AM']
+Length: 5, dtype: str
+Updated | dtype: str | sample: <StringArray>
+['12/Aug/26 1:37 PM', '12/Aug/26 4:18 PM', '11/Aug/26 3:11 PM',
+ '11/Aug/26 3:08 PM', '11/Aug/26 3:46 PM']
+Length: 5, dtype: str
+Resolved | dtype: str | sample: <StringArray>
+['05/Aug/26 11:12 AM', '05/Aug/26 10:23 AM',  '05/Aug/26 9:13 AM',
+  '05/Aug/26 8:59 AM', '04/Aug/26 12:47 PM']
+Length: 5, dtype: str
+Labels.1 | dtype: str | sample: <StringArray>
+['Passport', 'LGBTQIA+', 'JCPS', 'ChronicHealthCondition', 'CLCM']
+Length: 5, dtype: str
+Labels.2 | dtype: str | sample: <StringArray>
+['SNAP', 'SLCM', 'JCPS', 'Workforce-FinancialStability', 'Uninsured']
+Length: 5, dtype: str
+Labels.3 | dtype: str | sample: <StringArray>
+['WLCM', 'Workforce-Unemployed', 'SNAP', 'SLCM', 'Workforce-Underemployed']
+Length: 5, dtype: str
+Labels.4 | dtype: str | sample: <StringArray>
+['Workforce-Unemployed', 'Workforce-Underemployed', 'SSDI', 'SLCM',
+ 'Passport']
+Length: 5, dtype: str
+Labels.5 | dtype: str | sample: <StringArray>
+['Young-adult', 'United', 'SSDI', 'Workforce-Unemployed', 'Passport']
+Length: 5, dtype: str
+Labels.6 | dtype: str | sample: <StringArray>
+['SLCM', 'Workforce-Unemployed', 'Workforce-Underemployed', 'SNAP', 'United']
+Length: 5, dtype: str
+Watchers | dtype: str | sample: <StringArray>
+['Johanna South', 'James Bryant', 'Jerry Englehart', 'Clare Rutz Wallace']
+Length: 4, dtype: str
+Watchers.1 | dtype: str | sample: <StringArray>
+[  'Johanna South',   'Janeth Zuniga',    'Jonet Wright', 'Jerry Englehart',
+     'Lasha Clark']
+Length: 5, dtype: str
+Watchers Id | dtype: str | sample: <StringArray>
+['712020:3b2c2185-c76f-4d90-ad8c-9e260c73c318',
+ '712020:7919ac37-40c1-4b22-a858-9d188e7777ec',
+ '712020:54a6e8ea-caf8-4460-817b-69ed38af698c',
+  '70121:72600a3a-ce8b-4753-8d99-02264a40d180']
+Length: 4, dtype: str
+Watchers Id.1 | dtype: str | sample: <StringArray>
+['712020:3b2c2185-c76f-4d90-ad8c-9e260c73c318',
+ '712020:f8eb390c-3085-4236-9559-538a8b52e972',
+ '712020:b45b5172-67c2-45ac-81f5-e5089b0bea5a',
+ '712020:54a6e8ea-caf8-4460-817b-69ed38af698c',
+ '712020:48d4fd1e-d57b-46d5-a370-e0de656dd4d8']
+Length: 5, dtype: str
+# Additional Household Members | dtype: int64 | sample: [2 0 4 3 1]
+Custom field (City) | dtype: str | sample: <StringArray>
+['Louisville', 'Louisville ', 'louisville', 'Fairdale', 'Lousville']
+Length: 5, dtype: str
+Custom field (Community Ministry) | dtype: str | sample: <StringArray>
+['WLCM', 'SLCM', 'CLCM', 'MUSCL', 'No Established Residence']
+Length: 5, dtype: str
+Custom field (Court Date) | dtype: str | sample: <StringArray>
+['05/Sep/26 12:00 AM', '12/Aug/26 12:00 AM', '27/Aug/26 12:00 AM',
+ '03/Sep/26 12:00 AM', '23/Aug/26 12:00 AM']
+Length: 5, dtype: str
+Custom field (Current Employer) | dtype: str | sample: <StringArray>
+['TireHub ', 'No', 'Paul J Mullins, Atty at law', 'Tarc',
+ 'Norton Healthcare ']
+Length: 5, dtype: str
+Age at Intake | dtype: float64 | sample: [24. 42. 40. 41. 29.]
+Custom field (Employment Status) | dtype: str | sample: <StringArray>
+[                   'Unemployed but want to find work',
+                                            'Employed',
+ 'Employed, but need more hours and/or different work',
+                                               'Other',
+                 'Unemployed and not looking for work']
+Length: 5, dtype: str
+Custom field (Eviction Reason) | dtype: str | sample: <StringArray>
+['Other', 'Non-payment', 'I don't know', 'Lease violation', 'Lease ended']
+Length: 5, dtype: str
+Custom field (Eviction Status) | dtype: str | sample: <StringArray>
+[      'Not being evicted',                 'Unknown',
+ 'Currently being evicted',   'Received 7 day notice']
+Length: 4, dtype: str
+Custom field (Gender) | dtype: str | sample: <StringArray>
+['Woman', 'Man']
+Length: 2, dtype: str
+Custom field (Goals) | dtype: str | sample: <StringArray>
+['Financial Stability Care Path',   'Behavioral Health Care Path',
+      'Transportation Care Path',                'Food Care Path',
+           'Childcare Care Path']
+Length: 5, dtype: str
+Custom field (Goals).1 | dtype: str | sample: <StringArray>
+[             'Financial Stability Care Path',
+                             'Food Care Path',
+ 'Intimate Partner Violence Victim Care Path',
+                   'Transportation Care Path',
+                        'Childcare Care Path']
+Length: 5, dtype: str
+Custom field (Goals).2 | dtype: str | sample: <StringArray>
+[                'Food Care Path',                 'Social Support',
+       'Transportation Care Path',     'Legal Assistance Care Path',
+ 'Pregnancy/Postpartum Care Path']
+Length: 5, dtype: str
+Custom field (Goals).3 | dtype: str | sample: <StringArray>
+[          'Healthcare Care Path',       'Transportation Care Path',
+                 'Food Care Path',                 'Social Support',
+ 'Pregnancy/Postpartum Care Path']
+Length: 5, dtype: str
+Custom field (Household Identities) | dtype: str | sample: <StringArray>
+[            'Pregnant or recently postpartum',
+                                    'LGBTQIA+',
+ 'Person with a physical or mental disability',
+        'Person with chronic health condition',
+                        'Refugee or Immigrant']
+Length: 5, dtype: str
+Custom field (Household Identities).1 | dtype: str | sample: <StringArray>
+['Person with a physical or mental disability',
+        'Person with chronic health condition',
+                                     'Veteren',
+             'Pregnant or recently postpartum',
+                        'Refugee or Immigrant']
+Length: 5, dtype: str
+Custom field (Household repairs required?) | dtype: str | sample: <StringArray>
+['No', 'Yes']
+Length: 2, dtype: str
+Custom field (Housing Status) | dtype: str | sample: <StringArray>
+[                      'Other',              'Rent- past due',
+     'Rent - nothing past due', 'Staying with friends/family',
+ 'Own home - nothing past due']
+Length: 5, dtype: str
+Custom field (Income Amount ($)) | dtype: float64 | sample: [   0. 3000.  998. 1300. 4100.]
+Custom field (Insurance Provider for Family) | dtype: str | sample: <StringArray>
+['Passport by Molina', 'I don't know', 'Humana', 'United Healthcare',
+ 'Anthem']
+Length: 5, dtype: str
+Custom field (Intake Date) | dtype: str | sample: <StringArray>
+['12/Aug/26 12:00 AM', '11/Aug/26 12:00 AM', '10/Aug/26 12:00 AM',
+ '09/Aug/26 12:00 AM', '08/Aug/26 12:00 AM']
+Length: 5, dtype: str
+Has LG&E Account on File | dtype: str | sample: <StringArray>
+['No', 'Yes']
+Length: 2, dtype: str
+Custom field (Landlord Name) | dtype: str | sample: <StringArray>
+['Ms Cathy', 'Joe Cox', 'Ben Brandicourt', 'Ramey', 'Broadway Management ']
+Length: 5, dtype: str
+Custom field (Loss of Income Causation) | dtype: str | sample: <StringArray>
+[                             'Childbirth',
+                                'Job loss',
+                  'Issues with child care',
+ 'Medical emergency or other health needs',
+                   'Household member left']
+Length: 5, dtype: str
+Custom field (Loss of Income Causation).1 | dtype: str | sample: <StringArray>
+[      'Loss of accessible transportation',
+ 'Medical emergency or other health needs',
+                                   'Other',
+                                'Eviction',
+                                'Job loss']
+Length: 5, dtype: str
+Custom field (Loss of Income Causation).2 | dtype: str | sample: <StringArray>
+[                            'Loss of job',
+ 'Medical emergency or other health needs',
+                     'Onset of disability',
+                  'Issues with child care',
+       'Loss of accessible transportation']
+Length: 5, dtype: str
+Custom field (Loss of Income Causation).3 | dtype: str | sample: <StringArray>
+[ 'Reduction in or loss of benefits',                          'Job loss',
+        'Reduction in hours at work', 'Loss of accessible transportation',
+                       'Loss of job']
+Length: 5, dtype: str
+Custom field (Main reason Neighbor stopped paying rent) | dtype: str | sample: <StringArray>
+['Withheld rent because of problems with my housing',
+                                     'Rent increase',
+                            'Have to pay other debt',
+                          'Lost a job/had hours cut',
+                                             'Other']
+Length: 5, dtype: str
+Custom field (Monthly Rent ($)) | dtype: float64 | sample: [ 665. 1100. 1165. 1150. 1070.]
+Has Email on File | dtype: str | sample: <StringArray>
+['Yes', 'No']
+Length: 2, dtype: str
+Has Phone on File | dtype: str | sample: <StringArray>
+['Yes', 'No']
+Length: 2, dtype: str
+Custom field (Other Professionals Detail) | dtype: str | sample: <StringArray>
+[                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     'Trying to find more help',
+ 'Health department was helping as far as going after the property management due to my whole apartment besides the bathroom door testing positive for lead along with my 1 year old having a lead level of 11. They told me I would have to do the renting process over in order to get into a another unit but will allow me to break my lease without penalty once I turn in the keys. I am past due on rent due to finding out in June about the lead which we have stayed in the unit going on 3 years. So it has been a lot on me to be able to work and look for a new place along with school and no transportation if I move out of school district. We really just need help with food and whatever available assistance there is at the time ! Thank you sorry for the long message ',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     'Nicholas human resources ',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               'Passport by Molina, Sage Martin',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                'Sam Belza/Catholic Charities of Louisville/sbelza@archlou.org\nArlethy Fabelo Reboredo/Catholic Charities of Louisville/ areboredo@archlou.org']
+Length: 5, dtype: str
+Custom field (Other professionals helping with goals?) | dtype: str | sample: <StringArray>
+['No', 'Yes']
+Length: 2, dtype: str
+Custom field (Past Due Rent ($)) | dtype: float64 | sample: [1615.   1700.   2563.34  700.   3200.  ]
+Custom field (People in Household 17 and Under) | dtype: str | sample: <StringArray>
+['2', '0', '3', '1', '5']
+Length: 5, dtype: str
+Custom field (People in Household 18+) | dtype: str | sample: <StringArray>
+['0', '1', '2', '3', '4']
+Length: 5, dtype: str
+Custom field (People in Household 65+) | dtype: str | sample: <StringArray>
+['No', 'Yes']
+Length: 2, dtype: str
+Custom field (Preferred method of contact) | dtype: str | sample: <StringArray>
+['Call', 'Text']
+Length: 2, dtype: str
+Custom field (Preferred method of contact).1 | dtype: str | sample: <StringArray>
+['Text', 'E-mail']
+Length: 2, dtype: str
+Custom field (Primary Insurance) | dtype: str | sample: <StringArray>
+['Medicaid', 'Employee-coverage', 'Medicare', 'Other']
+Length: 4, dtype: str
+Custom field (Primary Language Spoken in Home) | dtype: str | sample: <StringArray>
+['English ', 'English', 'Kinyarwanda', 'english', 'Swahili']
+Length: 5, dtype: str
+Custom field (Pronoun) | dtype: str | sample: <StringArray>
+['she/her', 'he/him', 'Prefer not to answer', 'Other']
+Length: 4, dtype: str
+Custom field (Race/Ethnicity) | dtype: str | sample: <StringArray>
+[     'Black of African American',                          'White',
+                          'Other',                          'Asian',
+ 'American Indian/Alaskan Native']
+Length: 5, dtype: str
+Custom field (Rank) | dtype: str | sample: <StringArray>
+['0|i03a6v:', '0|i03a3z:', '0|i03a1b:', '0|i039yf:', '0|i039v3:']
+Length: 5, dtype: str
+Custom field (Rent Intake Form Goals) | dtype: str | sample: <StringArray>
+[                   'Avoid an eviction',
+                'Get rental assistance',
+                     'Find new housing',
+ 'Come up with a plan to pay back rent',
+                                'Other']
+Length: 5, dtype: str
+Custom field (Rent Intake Form Goals).1 | dtype: str | sample: <StringArray>
+[                    'Find new housing',
+ 'Come up with a plan to pay back rent',
+                'Get rental assistance',
+       'Find public/subsidized housing',
+                                'Other']
+Length: 5, dtype: str
+Custom field (Rent Intake Form Goals).2 | dtype: str | sample: <StringArray>
+[  'Get my security deposit back', 'Find public/subsidized housing',
+              'Stay out of court',          'Get rental assistance',
+      'Get more time to move out']
+Length: 5, dtype: str
+Custom field (Rent Intake Form Goals).3 | dtype: str | sample: <StringArray>
+[         'Get rental assistance',      'Get more time to move out',
+              'Stay out of court', 'Find public/subsidized housing',
+         'Landlord fixes my home']
+Length: 5, dtype: str
+Custom field (Rent-to-Income %) | dtype: float64 | sample: [ 48.     53.36   54.917  41.    121.667]
+Custom field (Response Method) | dtype: str | sample: <StringArray>
+[               'An email with available resources and next steps',
+ 'A phone call to further explain where you would like assistance',
+                                                           'Other']
+Length: 3, dtype: str
+Custom field (Response Method).1 | dtype: str | sample: <StringArray>
+['A phone call to further explain where you would like assistance', 'Other']
+Length: 2, dtype: str
+Custom field (Section 8 or Housing Voucher) | dtype: str | sample: <StringArray>
+['No', 'Yes']
+Length: 2, dtype: str
+Custom field (Source of income) | dtype: str | sample: <StringArray>
+[ 'Food benefits - TANF/SNAP',                  'No income',
+ 'Social Security - SSI/SSDI',       'Part-time employment',
+       'Full-time employment']
+Length: 5, dtype: str
+Custom field (Source of income).1 | dtype: str | sample: <StringArray>
+[                 'No income',       'Part-time employment',
+       'Full-time employment', 'Social Security - SSI/SSDI',
+                      'Other']
+Length: 5, dtype: str
+Custom field (State) | dtype: str | sample: <StringArray>
+['KY', 'Kentucky ', 'Ky ', 'Ky', 'Kentucky']
+Length: 5, dtype: str
+Custom field (Utility Past Due) | dtype: str | sample: <StringArray>
+['LG&E', 'I don't know', 'Water']
+Length: 3, dtype: str
+Has Water Account on File | dtype: str | sample: <StringArray>
+['No', 'Yes']
+Length: 2, dtype: str
+Custom field (Zip Code) | dtype: str | sample: <StringArray>
+['40210', '40215', '40208', '40211', '40214']
+Length: 5, dtype: str
+Custom field ([CHART] Date of First Response) | dtype: str | sample: <StringArray>
+[ '2026-08-12 18:34:29.69', '2026-08-11 19:11:08.805',
+ '2026-08-11 19:46:34.896',  '2026-08-11 13:22:30.25',
+ '2026-08-11 13:29:14.533']
+Length: 5, dtype: str
+Custom field ([CHART] Time in Status) | dtype: str | sample: <StringArray>
+['10013_*:*_1_*:*_12459_*|*_10034_*:*_1_*:*_0',
+ '10013_*:*_1_*:*_12712_*|*_10034_*:*_1_*:*_0',
+ '10013_*:*_1_*:*_31886_*|*_10034_*:*_1_*:*_0',
+ '10013_*:*_1_*:*_13231_*|*_10034_*:*_1_*:*_0',
+ '10013_*:*_1_*:*_16304_*|*_10034_*:*_1_*:*_0']
+Length: 5, dtype: str
+Comment | dtype: str | sample: <StringArray>
+['12/Aug/26 2:34 PM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;Seeking $800-$1000 towards rent, JB referred to Housing Stabilization',
+                                               '11/Aug/26 3:11 PM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;Seeking LG&E assistance',
+                                         '11/Aug/26 3:46 PM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;Seeking $2563.34 towards rent',
+                                               '11/Aug/26 9:22 AM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;Seeking LG&E assistance',
+              '11/Aug/26 9:29 AM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;Seeking $600 towards rent, as well as financial coaching']
+Length: 5, dtype: str
+Comment.1 | dtype: str | sample: <StringArray>
+[                                                                                                                                                                                                                                                                                 '11/Aug/26 9:28 AM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;JB referred to KTAP, client is maxed out at MUSCL, already did LiHEAP, and owes too much for Salvation Army',
+                                                                                                                                                                                                                                                                                                                                            '10/Aug/26 11:40 AM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;Seeking LG&E assistance after LiHEAP appointment',
+                                                                                                                                                                                                                                                                                                          '04/Aug/26 11:45 AM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;Stopped responding when asked what happened to where she was unable to pay herself',
+                                                                                                                                                                                                                                                                                                                                                                    '20/Jul/26 1:24 PM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;Seeking $600 towards rent',
+ '11/Aug/26 12:08 PM;712020:b45b5172-67c2-45ac-81f5-e5089b0bea5a;I met with JN yesterday 8.10.26. She is currently behind on rent and water.\n\nRent: 1175 owe\n\nWater: 728 owe\n\nRecommendation:\n\n* apply for housing stabilization program 8.11.26\n* go to central ministry walk in hours 8.11.26\n* apply for ktap program rap program 8.11.26\n* apply for survivor benefits\n* wants to be a part of the Kinship program\n\nwill follow up 8.11.26']
+Length: 5, dtype: str
+Comment.2 | dtype: str | sample: <StringArray>
+[                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        '01/Jul/26 4:02 PM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;JB recommended sanction cure for KTAP, mentioned SLCM tarc tickets, referred to Thrive By 5 for childcare, and KHS Pet Retention for puppy-help',
+ '21/Jul/26 2:37 PM;712020:b45b5172-67c2-45ac-81f5-e5089b0bea5a;Rent: 925 behind 1850\n\nLge: 300\n\nWater: included in rent\n\nIns. case manager -no\n\nInsurance - Passport\n\nIncome: 2000\n\nVet/ disabled/ medical/ military - No\n\nHIV - No\n\nTransportation: \n\napply for disability: No\n\nMental illness: No\n\nmove:\n\nzip: \n\nHow many in the home: 3\n\nChildren: 2 - age 2, 3\n\nEducation: in college\n\nDebt total: \n\nDebt items:\n\nHobbies: Dental school\n\nShort term goals: get life back on track\n\nLong term goals: need help with rent lost my job she had for 3 years\n\nNote: \n\nRecommendation: Housing Stabilization, legal aid, hope and door, passport, salvation army, 401k, fast program - ktap',
+                                                                                                                                         '20/Jul/26 11:12 AM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;[~accountid:712020:54a6e8ea-caf8-4460-817b-69ed38af698c] Can you work with Medi? She has started the KTAP application process but is needing to submit documents. She is being granted an exception to the work/volunteer requirements due to her son needing frequent medical treatment due to severe sickle cell anemia. I will forward you the email from Jennifer @ Kynect regarding what other documents she needs. She might need to pursue the FAST program, instead of regular KTAP, if her rent balance gets too high',
+   '01/Jul/26 1:59 PM;712020:b45b5172-67c2-45ac-81f5-e5089b0bea5a;Update: met in person today 7.1.26\n\nHas no case manager with Wellcare\n\nNo income family help only\n\nSection 8 and 200 is her portion on the rent\n\nDebt total: 8000\n\nDebt item: Car\n\nLGE - paid by SLCM Clare approval 7.1.26 Abigail assisted\n\nWants to be a part of our 0-5 program \n\nGoals to work on: Like this to be emailed information\n\n* applying for ktap - ktap letter\n* applying for rap program to move\n* Is currently pregnant - interested in classes and baby items\n* Would like to attend GED classes in the afternoon preferably\n* One on one with JW afternoons\n* Seeking 4 bd in area of Southern pkwy, poplar level, Newburg',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            '22/Jun/26 2:11 PM;712020:7919ac37-40c1-4b22-a858-9d188e7777ec;Veteran seeking utility assistance, JB referred to USA Cares']
+Length: 5, dtype: str
+Parent | dtype: float64 | sample: [59745. 59501. 59992. 59393. 59373.]
+Parent key | dtype: str | sample: <StringArray>
+['NEIG-18325', 'NEIG-18142', 'NEIG-18572', 'NEIG-18034', 'NEIG-18014']
+Length: 5, dtype: str
+Parent summary | dtype: str | sample: <StringArray>
+['Alaceya Chianne Jerelden ',          'Brianna Salmeron',
+         'Layla Marie hall ',      'Glennesha s Hampton ',
+     'Alyssa Marie Johnson ']
+Length: 5, dtype: str
+Status Category | dtype: str | sample: <StringArray>
+['In Progress', 'Done', 'To Do']
+Length: 3, dtype: str
+Status Category Changed | dtype: str | sample: <StringArray>
+[ '12/Aug/26 1:37 PM',  '11/Aug/26 3:08 PM', '11/Aug/26 10:12 AM',
+  '11/Aug/26 9:12 AM',  '10/Aug/26 2:46 PM']
+Length: 5, dtype: str

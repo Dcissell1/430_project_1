@@ -1,0 +1,97 @@
+Column Name,Dtype
+PID,str
+PID Match Basis,str
+Summary,str
+Issue key,str
+Issue id,int64
+Issue Type,str
+Status,str
+Resolution,str
+Reporter,str
+Reporter Id,str
+Creator,str
+Creator Id,str
+Created,str
+Updated,str
+Resolved,str
+Labels.1,str
+Labels.2,str
+Labels.3,str
+Labels.4,str
+Labels.5,str
+Labels.6,str
+Watchers,str
+Watchers.1,str
+Watchers Id,str
+Watchers Id.1,str
+# Additional Household Members,int64
+Custom field (City),str
+Custom field (Community Ministry),str
+Custom field (Court Date),str
+Custom field (Current Employer),str
+Age at Intake,float64
+Custom field (Employment Status),str
+Custom field (Eviction Reason),str
+Custom field (Eviction Status),str
+Custom field (Gender),str
+Custom field (Goals),str
+Custom field (Goals).1,str
+Custom field (Goals).2,str
+Custom field (Goals).3,str
+Custom field (Household Identities),str
+Custom field (Household Identities).1,str
+Custom field (Household repairs required?),str
+Custom field (Housing Status),str
+Custom field (Income Amount ($)),float64
+Custom field (Insurance Provider for Family),str
+Custom field (Intake Date),str
+Has LG&E Account on File,str
+Custom field (Landlord Name),str
+Custom field (Loss of Income Causation),str
+Custom field (Loss of Income Causation).1,str
+Custom field (Loss of Income Causation).2,str
+Custom field (Loss of Income Causation).3,str
+Custom field (Main reason Neighbor stopped paying rent),str
+Custom field (Monthly Rent ($)),float64
+Has Email on File,str
+Has Phone on File,str
+Custom field (Other Professionals Detail),str
+Custom field (Other professionals helping with goals?),str
+Custom field (Past Due Rent ($)),float64
+Custom field (People in Household 17 and Under),str
+Custom field (People in Household 18+),str
+Custom field (People in Household 65+),str
+Custom field (Preferred method of contact),str
+Custom field (Preferred method of contact).1,str
+Custom field (Primary Insurance),str
+Custom field (Primary Language Spoken in Home),str
+Custom field (Pronoun),str
+Custom field (Race/Ethnicity),str
+Custom field (Rank),str
+Custom field (Rent Intake Form Goals),str
+Custom field (Rent Intake Form Goals).1,str
+Custom field (Rent Intake Form Goals).2,str
+Custom field (Rent Intake Form Goals).3,str
+Custom field (Rent-to-Income %),float64
+Custom field (Response Method),str
+Custom field (Response Method).1,str
+Custom field (Section 8 or Housing Voucher),str
+Custom field (Source of income),str
+Custom field (Source of income).1,str
+Custom field (State),str
+Custom field (Utility Past Due),str
+Has Water Account on File,str
+Custom field (Zip Code),str
+Custom field ([CHART] Date of First Response),str
+Custom field ([CHART] Time in Status),str
+Comment,str
+Comment.1,str
+Comment.2,str
+Parent,float64
+Parent key,str
+Parent summary,str
+Status Category,str
+Status Category Changed,str
+ticket_frequency,int64
+is_chronic,bool
+is_urgent,bool

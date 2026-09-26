@@ -1,0 +1,93 @@
+0 PID
+1 PID Match Basis
+2 Summary
+3 Issue key
+4 Issue id
+5 Issue Type
+6 Status
+7 Resolution
+8 Reporter
+9 Reporter Id
+10 Creator
+11 Creator Id
+12 Created
+13 Updated
+14 Resolved
+15 Labels.1
+16 Labels.2
+17 Labels.3
+18 Labels.4
+19 Labels.5
+20 Labels.6
+21 Watchers
+22 Watchers.1
+23 Watchers Id
+24 Watchers Id.1
+25 # Additional Household Members
+26 Custom field (City)
+27 Custom field (Community Ministry)
+28 Custom field (Court Date)
+29 Custom field (Current Employer)
+30 Age at Intake
+31 Custom field (Employment Status)
+32 Custom field (Eviction Reason)
+33 Custom field (Eviction Status)
+34 Custom field (Gender)
+35 Custom field (Goals)
+36 Custom field (Goals).1
+37 Custom field (Goals).2
+38 Custom field (Goals).3
+39 Custom field (Household Identities)
+40 Custom field (Household Identities).1
+41 Custom field (Household repairs required?)
+42 Custom field (Housing Status)
+43 Custom field (Income Amount ($))
+44 Custom field (Insurance Provider for Family)
+45 Custom field (Intake Date)
+46 Has LG&E Account on File
+47 Custom field (Landlord Name)
+48 Custom field (Loss of Income Causation)
+49 Custom field (Loss of Income Causation).1
+50 Custom field (Loss of Income Causation).2
+51 Custom field (Loss of Income Causation).3
+52 Custom field (Main reason Neighbor stopped paying rent)
+53 Custom field (Monthly Rent ($))
+54 Has Email on File
+55 Has Phone on File
+56 Custom field (Other Professionals Detail)
+57 Custom field (Other professionals helping with goals?)
+58 Custom field (Past Due Rent ($))
+59 Custom field (People in Household 17 and Under)
+60 Custom field (People in Household 18+)
+61 Custom field (People in Household 65+)
+62 Custom field (Preferred method of contact)
+63 Custom field (Preferred method of contact).1
+64 Custom field (Primary Insurance)
+65 Custom field (Primary Language Spoken in Home)
+66 Custom field (Pronoun)
+67 Custom field (Race/Ethnicity)
+68 Custom field (Rank)
+69 Custom field (Rent Intake Form Goals)
+70 Custom field (Rent Intake Form Goals).1
+71 Custom field (Rent Intake Form Goals).2
+72 Custom field (Rent Intake Form Goals).3
+73 Custom field (Rent-to-Income %)
+74 Custom field (Response Method)
+75 Custom field (Response Method).1
+76 Custom field (Section 8 or Housing Voucher)
+77 Custom field (Source of income)
+78 Custom field (Source of income).1
+79 Custom field (State)
+80 Custom field (Utility Past Due)
+81 Has Water Account on File
+82 Custom field (Zip Code)
+83 Custom field ([CHART] Date of First Response)
+84 Custom field ([CHART] Time in Status)
+85 Comment
+86 Comment.1
+87 Comment.2
+88 Parent
+89 Parent key
+90 Parent summary
+91 Status Category
+92 Status Category Changed
